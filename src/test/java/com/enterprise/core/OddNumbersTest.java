@@ -14,7 +14,7 @@ public class OddNumbersTest {
 
 	@Test
 	public void testSumOfOddNumbers() {
-		assertEquals(25,oddNumbers.findSum(new int[]{1,2,3,4,5,6,7,8,9,0}));
+		assertEquals(25,oddNumbers.findSum(new int[]{1,2,3,4,5,6,7,8,9}));
 	}
 	
 	@Test
